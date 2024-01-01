@@ -13,7 +13,7 @@ execute as @s[gamemode=adventure,distance=5..100,scores={timer=9,class=4},x=600,
 #execute as @a[gamemode=adventure,distance=..100,scores={timer=17,class=2},x=620,y=20,z=620] at @s run effect clear @p levitation
 execute as @s[gamemode=adventure,distance=..100,scores={timer=15,class=10},x=620,y=20,z=620] at @s run effect clear @p levitation
 
-scoreboard players set @s[gamemode=adventure,scores={timer=8..,class=5}] timer 0
+scoreboard players set @s[gamemode=adventure,scores={timer=0..,class=5}] timer 0
 
 effect give @s[gamemode=adventure,scores={class=4,timer=1},distance=..100,x=620,y=20,z=620] slowness 2 2
 effect give @s[gamemode=adventure,scores={class=6,timer=2},distance=..100,x=620,y=20,z=620] slowness 2 3
